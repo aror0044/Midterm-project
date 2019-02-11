@@ -1,4 +1,4 @@
-# MTM6330-Week-5
+# Midterm Project
 
 *Name : Lovish Arora
 

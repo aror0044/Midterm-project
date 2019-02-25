@@ -1,13 +1,28 @@
 body {
   font-family: "Shadows Into Light", cursive;
+  background-color: #e8e7e7;
   font-size: 24px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Shadows Into Light", cursive; }
+  font-family: "Shadows Into Light", cursive;
+  color: #8a1d40; }
 
 form {
   margin: 160px; }
 
 .mynavbar {
-  background: #8a1d40;
+  background: #8a1d40; }
+  .mynavbar button {
+    background-color: #8a1d40;
+    color: #FFD700;
+    border-color: #e8e7e7; }
+    .mynavbar button:hover {
+      background-color: #e8e7e7;
+      color: #8a1d40;
+      border-color: #e8e7e7; }
+
+a {
   color: #e8e7e7; }
+
+a:hover {
+  color: #FFD700; }

@@ -7,11 +7,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Shadows Into Light", cursive;
   color: #8a1d40; }
 
-form {
-  margin: 160px; }
+h1 {
+  text-align: center;
+  font-weight: bold; }
+
+h2 {
+  text-align: center; }
+
+.ContactForm {
+  margin: 50%; }
 
 .mynavbar {
   background: #8a1d40; }
+  .mynavbar a {
+    color: #e8e7e7; }
+  .mynavbar a:hover {
+    color: #FFD700; }
   .mynavbar button {
     background-color: #8a1d40;
     color: #FFD700;
@@ -21,8 +32,58 @@ form {
       color: #8a1d40;
       border-color: #e8e7e7; }
 
-a {
-  color: #e8e7e7; }
+.videos {
+  margin: 20px;
+  margin-left: 100px; }
 
-a:hover {
-  color: #FFD700; }
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white; }
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%; }
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px; }
+
+.dp {
+  width: 100%; }
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px; }
+
+.banner {
+  height: 500px; }
+
+.banner2 {
+  height: 200px; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px; }
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0; } }

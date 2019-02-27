@@ -5,9 +5,34 @@ body{
   font-size: $text-font-size;
   width:100%;
 }
+
 footer{
+margin-top:100px;
   background-color:black ;
-  color:$clouds;
+  color:black;
+  li{
+
+  }
+  .card{
+    background-color:black;
+  }
+  .card-body{
+    background-color: $cherry;
+
+  }
+  a{
+    display:block;
+    color: black;
+
+  }
+  a:hover{
+text-decoration: none;
+    color: $ahover;
+  }
+  p{
+    color:$clouds;
+    text-align:center;
+  }
 }
 h1,h2,h3,h4,h5,h6{
   font-family: $fonts-text;
@@ -26,7 +51,10 @@ h1{
 h2{
   text-align: center;
 }
-
+.slidecontainer{
+  width: $slidewidth;
+  margin: 0 auto;
+}
 .mynavbar{
 background:$cherry;
 
@@ -128,45 +156,6 @@ margin-left: 100px;
   margin-top: 8px;
   vertical-align: middle;
 width:25%;
-}
-
-// image popup
-
-.show{
-    z-index: 999;
-    display: none;
-}
-.show .overlay{
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.66);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.show .img-show{
-    width: 600px;
-    height: 400px;
-    background: #FFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    overflow: hidden
-}
-.img-show span{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 99;
-    cursor: pointer;
-}
-.img-show img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .photogallery{
